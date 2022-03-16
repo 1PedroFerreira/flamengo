@@ -1,0 +1,74 @@
+.cartao-jogador {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.cartao-jogador .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-jogador .nome {
+    margin-bottom: 5px;
+    color:#C92520;
+    font-size: 40px;
+}
+
+.cartao-jogador .numero {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+
+.cartao-jogador .numeros {
+    color: #FFFFFF;
+    display: flex;
+    align-items: space-between;
+}
+
+.cartao-jogador .cartao-imagem {
+    width: 450px;
+    height: 450px;
+    background-image: url(../imagens/escudo.png);
+    background-size: 460px;
+    background-position: right;
+}
+
+.cartao-jogador img {
+    max-height: 100%;
+    align-items: left;
+    margin-left: 20px;
+}
+
+.cartao-jogador .cartao-informacoes {
+    justify-content: center;
+    background-color: #000000;
+    padding: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.cartao-jogador .cartao-informacoes h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    align-items: left;
+    display: flex;
+    margin-right: 60px;
+    margin-left: -30px;
+    margin-top: 40px;
+}
+
+.cartao-jogador .cartao-informacoes ul {
+    font-size: 20px;
+    align-items: right;
+    margin-right: -30px;
+}
+
+.cartao-jogador.aberto {
+    display: block;
+}

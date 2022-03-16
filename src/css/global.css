@@ -1,0 +1,17 @@
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #C92520;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    gap: 30px;
+    padding: 0 30px;
+}

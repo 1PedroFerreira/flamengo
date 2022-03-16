@@ -1,0 +1,66 @@
+@media (max-width: 750px) {
+    body {
+        font-size: 12px;
+        background-color: #C92520;
+    }
+    .time {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .cartao-jogador {
+        max-width: 300px;
+        flex-wrap: wrap;
+        margin-top: -500px;
+    }
+
+    .cartao-jogador .cartao-imagem {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cartao-jogador .cartao-informacoes {
+        padding: 20px 20px 20px;
+    }
+
+    .cartao-jogador .cartao-informacoes h2 {
+        font-size: 20px;
+        margin-left: 18px;
+        display: flex;
+    }
+
+    .cartao-jogador .cartao-informacoes ul {
+        font-size: 14px;
+    }
+
+    .lista ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 200px;
+        background-color: #C92520;
+    }
+
+    .cartao-jogador .cartao-topo h2 {
+        font-size: 30px;    
+    }
+
+    .lista {
+        max-width: 300px;
+        background-color: #C92520;
+    }
+
+    .lista .jogador {
+        width: 140px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .lista .jogador span {
+        padding: 5px;
+
+    }
+}
